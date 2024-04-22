@@ -8,7 +8,7 @@ import random
 
 async def wait_random(max_delay = 10) -> float:
     """ Return a randomly generated float """
-    random_float = random.uniform(0, max_delay)
-    await asyncio.sleep(random_float)
+    delay = random.uniform(0, max_delay)
+    await asyncio.sleep(delay)
 
-    return random_float
+    return delay
