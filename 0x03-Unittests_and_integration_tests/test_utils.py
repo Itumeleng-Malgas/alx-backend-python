@@ -12,7 +12,7 @@ from parameterized import parameterized
 
 class TestAccessNestedMap(unittest.TestCase):
     """
-    Tests access_nested_map 
+    Tests access_nested_map
     """
     @parameterized.expand([
         ({"a": 1}, ("a",), 1),
